@@ -4,8 +4,9 @@
   "description": "Intro Node Lab for Students",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --watch"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ironhack-labs/lab-intro-node.git"
@@ -19,5 +20,8 @@
     "intro"
   ],
   "author": "fer@ironhack.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^10.1.0"
+  }
 }
